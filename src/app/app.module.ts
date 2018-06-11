@@ -2,14 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { RouterModule, Routes } from '@angular/router';
-import {MatCardModule} from '@angular/material/card';
-import {MatSidenavModule} from '@angular/material/sidenav';
-import {FormsModule, ReactiveFormsModule} from '@angular/forms';
-import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
-import {MatCheckboxModule} from '@angular/material';
-import {MatToolbarModule} from '@angular/material/toolbar';
-import {MatButtonModule} from '@angular/material/button';
-import {MatListModule} from '@angular/material';
+import {MaterialCustomModule} from './material-custom/material-custom.module';
 
 import { AppComponent } from './app.component';
 import { WorkComponent } from './work/work.component';
@@ -25,20 +18,12 @@ import { MenuComponent} from './menu/menu.component';
     AboutMeComponent,
     ContactComponent,
     HomeComponent,
-    MenuComponent
+    MenuComponent,
   ],
   imports: [
     BrowserModule,
     FlexLayoutModule,
-    MatCardModule,
-    MatSidenavModule,
-    BrowserAnimationsModule,
-    MatCheckboxModule,
-    MatButtonModule,
-    FormsModule,
-    MatToolbarModule,
-    MatListModule,
-    ReactiveFormsModule,
+    MaterialCustomModule,
     RouterModule.forRoot( [
       {path: 'work', component: WorkComponent},
       {path: 'contact', component: ContactComponent},
