@@ -1,17 +1,20 @@
-<mat-toolbar></mat-toolbar>
+
 <mat-sidenav-container class="container">
   <mat-sidenav #sidenav mode="side">
-    <div>
-      <div class="nav-router"><a routerLink="/home">Home</a></div>
-      <div class="nav-router"><a routerLink="/work">Work</a></div>
-      <div class="nav-router"><a routerLink="/contact">Contact</a></div>
-      <div class="nav-router"><a routerLink="/about-me">About</a></div>
-    </div>
+    <mat-list>
+      <mat-list-item class="nav-router" routerLink="/home">Home</mat-list-item>
+      <mat-list-item class="nav-router" routerLink="/work">Work</mat-list-item>
+      <mat-list-item class="nav-router" routerLink="/contact">Contact</mat-list-item>
+      <mat-list-item class="nav-router" routerLink="/about-me">About</mat-list-item>
+    </mat-list>
   </mat-sidenav>
-  <mat-sidenav-content>
-    <button mat-button (click)="sidenav.toggle()">
-      <img class="logo" src="../../assets/dalton logo - primary.png"/></button>
-  </mat-sidenav-content>
+  <!--<mat-sidenav-content>-->
+  <!--</mat-sidenav-content>-->
+  <mat-toolbar>
+    <button mat-icon-button (click)="sidenav.toggle()">
+      <img class="logo" src="../../assets/dalton logo - primary.png"/>
+    </button>
+  </mat-toolbar>
   <router-outlet></router-outlet>
 </mat-sidenav-container>
 

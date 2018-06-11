@@ -8,6 +8,8 @@ import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {MatCheckboxModule} from '@angular/material';
 import {MatToolbarModule} from '@angular/material/toolbar';
+import {MatButtonModule} from '@angular/material/button';
+import {MatListModule} from '@angular/material';
 
 import { AppComponent } from './app.component';
 import { WorkComponent } from './work/work.component';
@@ -32,8 +34,10 @@ import { MenuComponent} from './menu/menu.component';
     MatSidenavModule,
     BrowserAnimationsModule,
     MatCheckboxModule,
+    MatButtonModule,
     FormsModule,
     MatToolbarModule,
+    MatListModule,
     ReactiveFormsModule,
     RouterModule.forRoot( [
       {path: 'work', component: WorkComponent},
