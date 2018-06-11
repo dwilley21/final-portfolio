@@ -1,0 +1,14 @@
+.header{
+  text-align: center;
+  font-size: 2em;
+  padding-top: 20px;
+}
+.container{
+  padding-top: 75px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+.splashLogo{
+  width: 500px;
+  legnth: 100px;
+}

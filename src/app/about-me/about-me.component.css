@@ -1,0 +1,24 @@
+.languages{
+  text-align: center;
+}
+.title{
+  text-align: center;
+}
+.subTitle{
+  text-align: center;
+}
+.headerImage {
+  width: 250px;
+  length: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 50px;
+  border-radius: 50%;
+}
+.languageImg{
+  width: 75px;
+  length: 75px;
+}
+.top{
+  background-color: whitesmoke;
+}

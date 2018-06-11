@@ -1,0 +1,14 @@
+<mat-sidenav-container class="container">
+  <mat-sidenav #sidenav mode="side">
+    <div>
+      <div class="nav-router"><a routerLink="/home">Home</a></div>
+      <div class="nav-router"><a routerLink="/work">Work</a></div>
+      <div class="nav-router"><a routerLink="/contact">Contact</a></div>
+      <div class="nav-router"><a routerLink="/about-me">About</a></div>
+    </div>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <button mat-button (click)="sidenav.toggle()">
+      <img class="logo" src="../../assets/dalton logo - primary.png"/></button>
+  </mat-sidenav-content>
+</mat-sidenav-container>

@@ -1,0 +1,20 @@
+input[type=text] {
+  width: 300px;
+}
+.title{
+  font-size: 3em;
+  font-weight: bolder;
+  padding-bottom: 75px;
+  text-align: center;
+}
+.contactIcon{
+  height: 50px;
+  width: 50px;
+}
+.contactBox{
+  padding-left: 50px;
+  padding-right: 50px;
+}
+form{
+  text-align: center;
+}
