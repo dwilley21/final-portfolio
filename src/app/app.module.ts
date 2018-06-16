@@ -9,7 +9,6 @@ import { WorkComponent } from './work/work.component';
 import { AboutMeComponent } from './about-me/about-me.component';
 import { ContactComponent } from './contact/contact.component';
 import {HomeComponent} from './home/home.component';
-import { MenuComponent} from './menu/menu.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +17,6 @@ import { MenuComponent} from './menu/menu.component';
     AboutMeComponent,
     ContactComponent,
     HomeComponent,
-    MenuComponent,
   ],
   imports: [
     BrowserModule,

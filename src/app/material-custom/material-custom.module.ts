@@ -28,7 +28,8 @@ import {
   MatTabsModule,
   MatToolbarModule,
   MatTooltipModule,
-  MatSidenavModule, } from '@angular/material';
+  MatSidenavModule,
+} from '@angular/material';
 
 @NgModule({
   imports: [

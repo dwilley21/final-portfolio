@@ -1,31 +1,33 @@
-<!--<app-menu></app-menu>-->
 <div class="container">
-  <div class="title">Contact</div>
-  <form>
-      <div class="form-group">
-       <div>
-         <label for="name">Name</label>
-       </div>
-        <input placeholder="Leroy Jenkins" type="text" class="form-control" id="name" required>
-      </div>
-      <div class="form-group">
-        <div>
-          <label for="email">Email</label>
-        </div>
-        <input placeholder="letsmeet@gmail.com" type="text" class="form-control" id="email" required>
-      </div>
+  <div class="title">Get in touch!</div>
+  <div class="callToAction"><i>Whether you're reaching out for collaboration, work opportunities, or need help on a project feel
+    free to reach out and I'll help however possible.</i></div>
+  <form action="https://formspree.io/mzggdwex" method="POST">
+    <input type="text" name="_gotcha" style="display: none">
+
     <div class="form-group">
-     <div>
-       <label for="reason">What's up?</label>
-     </div>
-      <input placeholder="Keep it simple" type="text" class="form-control" id="reason" required>
+      <div>
+        <label for="name">Name:</label>
+        <input type="text" class="form-control" id="name" required>
+      </div>
     </div>
-    <button>Submit</button>
+    <div class="form-group">
+      <div>
+        <label for="email">Email:</label>
+        <input type="text" class="form-control" id="email" required>
+      </div>
+    </div>
+    <div class="form-group">
+      <div>
+        <label for="reason">Reason: </label>
+        <input type="text" class="form-control" id="reason" required>
+      </div>
+    </div>
+    <div class="submitButton"><button type="submit">Send</button></div>
   </form>
 </div>
 <div class="container">
-  <div class="title">Reach out directly!</div>
-  <div class="contactBox" fxlayout="row" fxLayoutAlign="space-between center">
+  <div class="contactBox" fxlayout="row" fxLayoutAlign="space-evenly center">
     <div> <a href="https://twitter.com/dwilley21" target="_blank">
       <img class="contactIcon" src="../../assets/twitter.png"/></a></div>
     <div> <a href="https://www.linkedin.com/in/dalton-willey-174017aa/" target="_blank">
